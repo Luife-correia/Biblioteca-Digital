@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background-color: #e0deded3;
+}
+
+header{
+    background-color: #2d3e4e;
+    text-align: center;
+}
+
+header h1,
+header p{
+    color: white;
+    padding: 15px;
+
+}
+
+nav{
+    background-color: #36485e;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 20px;
+    text-align: center;
+}
+
+nav li{
+    padding: 20px;
+    width: 300%;
+}
+
+nav li:hover{
+    background-color: #20a185;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+
+}
+
+#hr1{
+    border: #20a185 2px solid;
+}
+
+.main{
+    margin-top: 20px;
+    justify-self: center;
+    width: 50%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 10px;
+}
+
+
+
+
+
+
+
+
+.livros-grid {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 30px;
+}
+.livro-card:hover {
+transform: translateY(-5px);
+box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+.livros-grid img{
+object-fit: cover;
+width: 200px;
+height: 280px;
+}
