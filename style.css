@@ -30,8 +30,8 @@ header h1 {
 nav {
     position: sticky;
     top: 0;
-    background-color: #36485e;
     z-index: 1;
+    background-color: #36485e;
 }
 
 nav ul {
@@ -44,20 +44,21 @@ nav ul {
 
 }
 
-nav li {
-    padding: 20px;
+nav li{
     width: 300%;
 }
 
-nav li:hover {
+nav a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+nav a:hover {
     background-color: #20a185;
 }
 
-nav a {
-    text-decoration: none;
-    color: white;
-
-}
 
 #hr1 {
     border: #20a185 2px solid;
