@@ -83,16 +83,38 @@ nav a {
 #span1 {
     background-color: rgba(255, 255, 0, 0.500);
     font-weight: bold;
-
 }
 
-.categorias-disponiveis ul {
+.categorias-disponiveis ul{
     list-style-type: square;
+    margin-bottom: 30px;
 }
 
 .categorias-disponiveis li{
     margin-bottom: 20px;
     color: #36485e;
+}
+
+.top5 ol{
+    margin-bottom: 30px;
+}
+
+.top5 li{
+    margin-bottom: 20px;
+    color: #36485e;
+    font-weight: bold;
+}
+
+.como-funciona dt{
+    color: #36485e;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+.como-funciona dd{
+    color: #2a3644;
+    margin-bottom: 20px;
 }
 
 
