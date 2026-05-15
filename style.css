@@ -1,34 +1,32 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
 }
 
-header{
+header {
     background-color: #2d3e4e;
     text-align: center;
-    
-    
 }
 
 header h1,
-header p{
+header p {
     margin: 0;
     color: white;
     padding: 15px;
 
 }
 
-nav{
+nav {
     background-color: #36485e;
-    
+
 }
 
-nav ul{
+nav ul {
     display: flex;
     justify-content: space-between;
     list-style: none;
@@ -38,26 +36,26 @@ nav ul{
 
 }
 
-nav li{
+nav li {
     padding: 20px;
     width: 300%;
 }
 
-nav li:hover{
+nav li:hover {
     background-color: #20a185;
 }
 
-nav a{
+nav a {
     text-decoration: none;
     color: white;
 
 }
 
-#hr1{
+#hr1 {
     border: #20a185 2px solid;
 }
 
-.main{
+.main {
     margin-top: 20px;
     justify-self: center;
     width: 50%;
@@ -66,60 +64,94 @@ nav a{
     padding: 20px 10px;
 }
 
-#span1{
+#span1 {
     background-color: rgba(255, 255, 0, 0.500);
 
 }
 
-#categoriasDisponiveis ul{
+.categorias-disponiveis ul {
     list-style-type: square;
 }
 
-
-
-
-
-
-
-
 .livros-grid {
-display: grid;
-grid-template-columns: repeat(2, 1fr);
-gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
 
 }
 
-.livro-card{
+.livro-card {
     display: flex;
     flex-direction: column;
     border-radius: 10px;
     padding: 20px;
 }
 
-.livro-card img{
+.livro-card img {
     align-self: center;
 }
 
-.livro-card h4{
+.livro-card h4 {
     text-align: center;
 }
 
-.autor{
+.autor {
     text-align: left;
 }
 
-.descricao{
+.descricao {
     text-align: justify;
 }
 
-.livro-card:hover {
-transform: translateY(-5px);
-box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+.btn-ler {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    align-self: center;
+    line-height: 40px;
+    width: 110px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #3a99d9;
 }
 
-.livros-grid img{
-object-fit: cover;
-width: 200px;
-height: 280px;
+.livro-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
 
+.livros-grid img {
+    object-fit: cover;
+    width: 200px;
+    height: 280px;
+}
+
+.novidade {
+    border-left: #3a99d9 5px solid;
+    background-color: #ecf0f1;
+}
+
+.novidade span {
+    color: red;
+}
+
+.links-uteis {
+    background-color: #e8f8f5;
+}
+
+#hr2 {
+    border: #f3fbfa 1px solid;
+}
+
+footer {
+    background-color: #2d3e4e;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: #20a185;
 }
