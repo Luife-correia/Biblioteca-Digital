@@ -70,14 +70,31 @@ nav a {
     padding: 20px 20px;
 }
 
+.main h2,
+.main h3{
+    color: #36485e;
+}
+
+
+.main p{
+    color: #2a3644;
+}
+
 #span1 {
     background-color: rgba(255, 255, 0, 0.500);
+    font-weight: bold;
 
 }
 
 .categorias-disponiveis ul {
     list-style-type: square;
 }
+
+.categorias-disponiveis li{
+    margin-bottom: 20px;
+    color: #36485e;
+}
+
 
 .livros-grid {
     display: grid;
