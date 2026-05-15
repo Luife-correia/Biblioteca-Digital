@@ -32,19 +32,21 @@
         <!-- BEM VINDO -->
         <h2>Bem-vindo à nossa Biblioteca Digital</h2>
         <hr id="hr1">
-        <p>A <span>Biblioteca Digital</span> oferece acesso gratuito a milhares de livros, artigos e recursos
+        <p>A <span id="span1">Biblioteca Digital</span> oferece acesso gratuito a milhares de livros, artigos e recursos
             educacionais. Explore nosso acervo e descubra um mundo de conhecimento.</p>
         <!-- BEM VINDO FIM -->
 
         <!-- CATEGORIAS DISPONIVEIS -->
-        <h3>Categorias Disponíveis</h3>
-        <ul>
-            <li>Literatura Brasileira</li>
-            <li>Ficção Científica</li>
-            <li>História e Geografia</li>
-            <li>Tecnologia e Computação</li>
-            <li>Ciências Naturais</li>
-        </ul>
+        <div id="categoriasDisponiveis">
+            <h3>Categorias Disponíveis</h3>
+            <ul>
+                <li>Literatura Brasileira</li>
+                <li>Ficção Científica</li>
+                <li>História e Geografia</li>
+                <li>Tecnologia e Computação</li>
+                <li>Ciências Naturais</li>
+            </ul>
+        </div>
         <!-- CATEGORIAS DISPONIVEIS FIM-->
 
         <!-- TOP 5 -->
@@ -60,12 +62,14 @@
 
         <!-- COMO FUNCIONA -->
         <h3>Como Funciona?</h3>
-        <h4>Cadastro</h4>
-        <p>Crie sua conta gratuita em menos de 2 minutos. Basta preencher o formulário na página de contato.</p>
-        <h4>Pesquisa</h4>
-        <p>Utilize nossa ferramenta de busca avançada para encontrar livros por título, autor ou categoria.</p>
-        <h4>Leitura</h4>
-        <p>Acesse os livros diretamente no navegador ou faça download em formato PDF ou EPUB.</p>
+        <dl>
+            <dt>Cadastro</dt>
+            <dd>Crie sua conta gratuita em menos de 2 minutos. Basta preencher o formulário na página de contato.</dd>
+            <dt>Pesquisa</dt>
+            <dd>Utilize nossa ferramenta de busca avançada para encontrar livros por título, autor ou categoria.</dd>
+            <dt>Leitura</dt>
+            <dd>Acesse os livros diretamente no navegador ou faça download em formato PDF ou EPUB.</dd>
+        </dl>
         <!-- COMO FUNCIONA FIM -->
 
         <!-- DESTAQUES -->
@@ -120,7 +124,7 @@
         <!-- DESTAQUES FIM -->
 
         <!-- NOVIDADE -->
-        <div>
+        <div class="novidade">
             <h3>Novidade!</h3>
             <p>A partir desta semana, temos uma nova seção de <span>audiolivros</span> disponível para todos os usuários
                 cadastrados.</p>

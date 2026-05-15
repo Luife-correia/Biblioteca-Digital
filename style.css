@@ -1,20 +1,23 @@
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
 body{
-    background-color: #e0deded3;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
 }
 
 header{
     background-color: #2d3e4e;
     text-align: center;
+    
+    
 }
 
 header h1,
 header p{
+    margin: 0;
     color: white;
     padding: 15px;
 
@@ -22,14 +25,17 @@ header p{
 
 nav{
     background-color: #36485e;
+    
 }
 
 nav ul{
     display: flex;
     justify-content: space-between;
     list-style: none;
-    gap: 20px;
     text-align: center;
+    margin: 0;
+    padding: 0;
+
 }
 
 nav li{
@@ -60,6 +66,15 @@ nav a{
     padding: 20px 10px;
 }
 
+#span1{
+    background-color: rgba(255, 255, 0, 0.500);
+
+}
+
+#categoriasDisponiveis ul{
+    list-style-type: square;
+}
+
 
 
 
@@ -71,13 +86,40 @@ nav a{
 display: grid;
 grid-template-columns: repeat(2, 1fr);
 gap: 30px;
+
 }
+
+.livro-card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.livro-card img{
+    align-self: center;
+}
+
+.livro-card h4{
+    text-align: center;
+}
+
+.autor{
+    text-align: left;
+}
+
+.descricao{
+    text-align: justify;
+}
+
 .livro-card:hover {
 transform: translateY(-5px);
 box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
+
 .livros-grid img{
 object-fit: cover;
 width: 200px;
 height: 280px;
+
 }
